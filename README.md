@@ -30,3 +30,14 @@ elif IMC <39.9:
     print(f"{nome} está com obesidade grau 2 seu imc é : {IMC}")
 else :
     print(f"{nome} está com obesidade grau 3 mórbida seu imc é : {IMC}")
+
+
+
+
+numero_desejado = int(input("qual numero vc deseja: "))
+numero_de_inicio = int(input("qual o numero q desejar pra começar: "))
+numero_de_final = int(input("qual numero deseja terminar: "))
+
+for numero_de_inicio in range (numero_de_inicio,numero_de_final):
+    print(f"{numero_de_inicio}x{numero_desejado} = {numero_de_inicio * numero_desejado}")
+    
